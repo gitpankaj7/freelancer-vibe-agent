@@ -2,8 +2,8 @@ name: Freelancer Vibe Coder Agent
 
 on:
   schedule:
-    # Har 15 minute mein run hoga (UTC time)
-    - cron: '*/15 * * * *'
+    # Har 5 minute mein run hoga (GitHub free tier ki max speed)
+    - cron: '*/5 * * * *'
   
   # Manual trigger bhi kar sakte ho GitHub Actions tab se
   workflow_dispatch:
