@@ -9,9 +9,9 @@ Ek free, automated agent jo Freelancer.com se **vibe coder-friendly projects** d
 ### Step 1: Telegram Chat ID lena
 
 1. Apne Telegram mein **@Ahabdhshhsh_bot** ko `/start` message bhejo
-2. Phir browser mein ye URL kholo:
+2. Phir browser mein ye URL kholo (YOUR_BOT_TOKEN ki jagah apna token daalein):
    ```
-   https://api.telegram.org/bot8804453284:AAEjiPyk6TgKFcfLja5OmbD9wRrcLa3qoOg/getUpdates
+   https://api.telegram.org/botYOUR_BOT_TOKEN/getUpdates
    ```
 3. Response mein `"chat":{"id":XXXXXXX}` dhundho — yahi aapka Chat ID hai
 4. Is Chat ID ko note karo
