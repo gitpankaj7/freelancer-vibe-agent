@@ -85,9 +85,6 @@ REJECT_PATTERNS = [
 # BOOST Keywords — agar ye hon toh ye SURE approve karega (pre-filter level pe)
 # ============================================================
 STRONG_APPROVE_PATTERNS = [
-    r"\bbuild\s+(me\s+)?(a|an)\b",           # "build me a website"
-    r"\bcreate\s+(a|an)\b",                    # "create an app"
-    r"\bi\s+need\s+(a|an)\b",                 # "I need a landing page"
     r"\bsimple\s+(website|app|tool|bot|script)\b",
     r"\bone[-\s]page\b",
     r"\blanding\s+page\b",
