@@ -63,6 +63,18 @@ REJECT_PATTERNS = [
     r"\bdata\s+scraping\b",
     r"\bcrawler\b",
 
+    # Marketing / Content Writing / Graphic Design (Not dev/video)
+    r"\b(digital\s+)?marketing\b",
+    r"\bseo\b",
+    r"\bcontent\s+writ(ing|er)\b",
+    r"\bcopywrit(ing|er)\b",
+    r"\b(logo|graphic)\s+design\b",
+    r"\billustrat(ion|or)\b",
+    r"\btranslation\b",
+    r"\bsocial\s+media\b",
+    r"\barticle\s+writ(ing|er)\b",
+    r"\bblog\s+post\b",
+
     # Very large / corporate projects
     r"\blong[-\s]?term\s+(contract|commitment)\b",
     r"\bonsite\b",

@@ -35,6 +35,9 @@ A vibe coder CAN handle:
 A vibe coder CANNOT handle:
 ❌ Data entry, manual copy-pasting, transcription
 ❌ Web scraping or data crawling tasks (strictly reject these)
+❌ Marketing, SEO, Social Media management
+❌ Content writing, copywriting, translations
+❌ Graphic design, Logo design, Illustration, UI/UX mockups
 ❌ Projects requiring 3+ years of specific engineering experience
 ❌ Low-level programming (C++, Rust, Assembly)
 ❌ DevOps, Kubernetes, complex infrastructure setup
